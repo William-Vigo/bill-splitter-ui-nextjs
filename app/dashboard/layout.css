@@ -1,0 +1,14 @@
+.grid-layout {
+  @apply grid;
+  grid-template-areas: 
+    "sidebar content";
+  grid-template-columns: 200px 1fr; /* Fixed width for the sidebar and equal width for the remaining columns */
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.content {
+  grid-area: content;
+}
