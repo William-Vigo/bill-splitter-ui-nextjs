@@ -3,7 +3,7 @@ import Sidebar from "../components/sidebar/sidebar"
 import './layout.css'
 const Layout = ({children}:  { children: React.ReactNode }) => {
     return (
-        <div className="grid-layout gap-2 border-2 h-screen">
+        <div className="grid-layout gap-2 h-screen ">
             <Sidebar/>
             {children}
         </div>
